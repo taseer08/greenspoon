@@ -1,0 +1,184 @@
+
+.navigation {
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding: 0px 30px;
+    transition: 0.5s ease;
+   
+   
+}
+ .navigation {
+    z-index: 999;
+    position: absolute;
+
+} 
+.navigation1 img{
+    display: flex;
+    align-content: left;
+    justify-content: left;
+    width: 70px;
+    margin: 20px 0 0 30px;
+}
+ .navigation  #navbar{
+    z-index: 999;
+    float: right;
+}
+.navigation #navbar li {
+    display: inline-block;
+    line-height: 30px;
+    margin: 10px 30px;
+}
+.navigation #navbar li  a{
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    padding: 10px 15px;
+ 
+}
+.navigation #navbar li a:hover{
+    color: rgb(39, 207, 39);
+    transition: .3s;
+    
+}
+.mobile{
+    display: none;
+    float: right;
+    padding: 25px;
+    font-size: 30px;
+}
+.booking .book {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.book h1{
+    color: #331f0a;
+    font-family: caveat;
+    font-size: 4em;
+}
+.book h1 span{
+    color: #90D512;
+}
+.booking .book img{
+    width: 100px;
+}
+.booking .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form form {
+    display: flex;
+    width: 350px;
+    gap: 20px;
+    flex-direction: column;
+    align-content: center;  
+}
+.form form input{
+    border: solid   #331f0a ;
+    padding: 10px;
+    font-family:caveat ;
+    font-size: 1.2em;
+}
+
+.textarea .text  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 50px; */
+}
+.textarea h1{
+    font-family: caveat;
+    font-size: 4em;
+} 
+.textarea .text  img{
+    margin: 20px;
+    width: 100px;
+}
+.textarea h1 span {
+    color: #90D512;
+}
+.textarea .text1 form input{
+    display: flex;
+    width: 350px;
+    height: 200px;
+    gap: 20px;
+    flex-direction: column;
+    align-content: bottom; 
+    margin: 20px 0;
+}
+.text1 input{
+    height: 100px;
+    transform: skew(7deg, 7deg);    
+    font-family:caveat ;
+}
+.text1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1.5px #90D512;
+    margin: 20px 563px  20px 475px;  
+}
+@media  (max-width:768px) {
+    .navigation{
+        display: flex;
+        align-items: right;
+        justify-content: right;
+    }
+    .navigation1 {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+    }
+    
+    
+    .navigation #navbar  {
+        display: flex;
+        flex-direction: column;
+        line-height: 50px;
+        justify-content: left;
+        align-items: left;
+        position: fixed;
+        top: 100px;
+        right: -500px;
+        width: 400px;
+        height: 280px;
+        margin:-5px 60px 10px 10px;
+        border: solid;
+        background-color:#FFFBFB;
+        transition: .3s ease-in-out;
+       
+    }
+    .navigation #navbar li a:hover{
+        color: #4ce03e;
+        font-size: 1.6em;
+    }
+    .navigation #navbar.active {
+        right: 10px;
+    }
+   
+    .mobile{
+        display: block;
+    }
+    .mobile i{
+        font-size: 30px;
+        cursor: pointer;
+        padding-bottom: 30px;
+    }
+    .text1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 1.5px #90D512;
+        margin: 10px 72px 20px 80px;
+    
+        
+    }
+
+}

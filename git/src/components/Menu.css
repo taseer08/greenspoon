@@ -1,0 +1,42 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.select-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 15px 20px;
+}
+.select-container h1{
+    font-family: caveat;
+    font-size: 1.5em;
+    background:#90D512;
+    border-radius: 10px;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.select-container img{
+    width: 80px;
+    height: 60px;
+}
+.select-container .imga img{
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.select-box {
+    font-size: 1em;
+    font-family: caveat ; 
+    border: 0;  
+} 
+.select-box option{
+    width: 400px;
+    padding: 20px;
+}
+
+
